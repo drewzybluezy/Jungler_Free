@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res/lol.jungler_free">
+    
+    <com.google.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        myapp:backgroundColor="#000000"
+        myapp:primaryTextColor="#FFFFFF"
+        myapp:secondaryTextColor="#5F5F5F"
+        myapp:refreshInterval="30" 
+        ads:adSize="BANNER"
+        ads:adUnitId="a1505280cc7e146"/>
+        
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="288dp"
+        android:layout_height="113dp"
+        android:background="@drawable/logo"
+        android:clickable="false" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/logo2" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="128dp"
+        android:layout_height="118dp"
+        android:layout_marginBottom="25.0dp"
+        android:background="@drawable/smite"
+        android:clickable="false"
+        android:paddingTop="30.0dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="138dp"
+        android:layout_height="139dp"
+        android:background="@drawable/big_green_button"
+        android:clickable="true"
+        android:hapticFeedbackEnabled="true"
+        android:textColor="@android:color/white"
+        android:textSize="22.0dp" />
+
+</LinearLayout>
